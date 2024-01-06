@@ -29,8 +29,58 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Dependências
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm install -D nodemailer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## [shadcn/ui](https://ui.shadcn.com/)
+
+```
+npx shadcn-ui@latest init
+```
+
+### [button](https://ui.shadcn.com/docs/components/button)
+
+```
+npx shadcn-ui@latest add button
+```
+
+### [input](https://ui.shadcn.com/docs/components/input)
+
+```
+npx shadcn-ui@latest add input
+```
+
+### [nextauth](https://next-auth.js.org/getting-started/example)
+
+<p>Autenticação de login</p>
+
+```
+npm install next-auth
+```
+
+### [prisma/nextauth](https://authjs.dev/reference/adapter/prisma?_gl=1*v9mulu*_gcl_au*NDkwMjk4MTE4LjE3MDQ0ODUyNjY.)
+
+```
+npm install @prisma/client @auth/prisma-adapter
+npm install prisma --save-dev
+```
+
+```
+npx prisma init
+```
+
+[Best practice for instantiating PrismaClient with Next.js](https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices)
+
+conectar o prisma com a database
+
+```
+npx prisma db push
+```
+
+### [supabase]()
+
+
+### [resend](https://resend.com/home)
+
+https://resend.com/changelog/smtp-service
