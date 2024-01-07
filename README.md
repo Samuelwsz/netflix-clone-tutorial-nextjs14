@@ -51,6 +51,18 @@ npx shadcn-ui@latest add button
 npx shadcn-ui@latest add input
 ```
 
+### [avatar](https://ui.shadcn.com/docs/components/avatar)
+
+```
+npx shadcn-ui@latest add avatar
+```
+
+### [dropdown menu](https://ui.shadcn.com/docs/components/dropdown-menu)
+
+```
+npx shadcn-ui@latest add dropdown-menu
+```
+
 ### [nextauth](https://next-auth.js.org/getting-started/example)
 
 <p>Autenticação de login</p>
@@ -72,14 +84,14 @@ npx prisma init
 
 [Best practice for instantiating PrismaClient with Next.js](https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices)
 
-conectar o prisma com a database
+conectar o prisma com a database. Sempre que realizar alguma alteração no schema.prisma usar o comando abaixo
 
 ```
 npx prisma db push
+npx prisma generate
 ```
 
 ### [supabase]()
-
 
 ### [resend](https://resend.com/home)
 
