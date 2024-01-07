@@ -57,6 +57,12 @@ npx shadcn-ui@latest add input
 npx shadcn-ui@latest add avatar
 ```
 
+### [modal](https://ui.shadcn.com/docs/components/dialog)
+
+```
+npx shadcn-ui@latest add dialog
+```
+
 ### [dropdown menu](https://ui.shadcn.com/docs/components/dropdown-menu)
 
 ```
